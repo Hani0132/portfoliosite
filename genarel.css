@@ -1,0 +1,180 @@
+* {
+  all: unset;
+  display: revert;
+  cursor: revert;
+  box-sizing: border-box;
+}
+main {
+  margin: 30px 50px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 1em;
+  font-family: "century gothic", Times, serif;
+  list-style-type: none;
+  margin: 1em 0em 1em 0em;
+  color: white;
+}
+
+.sensei {
+  background-image: url("/billeder/sensei.webp");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  margin: 25px 10px;
+}
+
+.farve {
+  background-color: #fed2d2;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  padding: 3px;
+  color: aliceblue;
+}
+
+@media (min-width: 600px) {
+  .sensei {
+    background-position: 50% 10%;
+  }
+}
+
+@media (min-width: 900px) {
+  .sensei {
+    background-position: 55% 10%;
+  }
+}
+
+/* CV SIDE */
+@media (min-width: 900px) {
+  #grid_1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+  }
+}
+
+.heydoo {
+  text-align: center;
+  font-family: ccmonstermash, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+  color: #eb0000;
+}
+
+/* menu */
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center center;
+  column-gap: 1em;
+  font-family: "century gothic", Times, serif;
+  list-style-type: none;
+  margin: 1em 0em 1em 0em;
+  color: #b5212a;
+}
+
+/* logo */
+.logo {
+  font-family: ccmonstermash, sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #b5212a;
+  margin-top: 1rem;
+}
+
+h1 {
+  font-family: "century gothic", Times, serif;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #5b3f41;
+  padding: 1rem;
+}
+
+p {
+  font-family: "century gothic", Times, serif;
+  font-size: 1.2rem;
+  color: #5b3f41;
+  margin: 24px auto;
+}
+
+.hide {
+  display: none;
+}
+
+.btn {
+  padding: 10px 40px;
+  background-color: burlywood;
+  color: rgb(99, 51, 24);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.btn2 {
+  padding: 10px 40px;
+  background-color: burlywood;
+  color: rgb(99, 51, 24);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn3 {
+  padding: 10px 40px;
+  background-color: burlywood;
+  color: rgb(99, 51, 24);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn4 {
+  padding: 10px 40px;
+  background-color: burlywood;
+  color: rgb(99, 51, 24);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.btn5 {
+  padding: 10px 40px;
+  background-color: burlywood;
+  color: rgb(99, 51, 24);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+.btn2:hover {
+  transform: scale(1.1);
+}
+.btn3:hover {
+  transform: scale(1.1);
+}
+.btn4:hover {
+  transform: scale(1.1);
+}
+.btn5:hover {
+  transform: scale(1.1);
+}
